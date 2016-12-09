@@ -1,0 +1,9 @@
+$(function(){
+  $(".btn").hover(
+    function(){
+      $("*").hide();
+    },
+    function(){
+      $("*").show();
+    });
+});
